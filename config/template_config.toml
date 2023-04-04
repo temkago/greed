@@ -31,7 +31,7 @@ engine = "sqlite:///database.sqlite"
 # Telegram bot parameters
 [Telegram]
 # Your bot token goes here. Get one from https://t.me/BotFather!
-token = "123456789:YOUR_TOKEN_GOES_HERE_______________"
+token = "6081054795:AAEQROYYaNih9UzhEbD77QuY6F7VfI3Vrfs"
 # Time in seconds before a conversation (thread) with no new messages expires
 # A lower value reduces memory usage, but can be inconvenient for the users
 conversation_timeout = 7200
@@ -48,13 +48,13 @@ con_pool_size = 10
 # General payment settings
 [Payments]
 # ISO currency code
-currency = "EUR"
+currency = "USD"
 # Currency exp parameter. You can find that on https://core.telegram.org/bots/payments/currencies.json.
 # It has a value of 2 in most currencies (EUR, USD, GBP...)
 currency_exp = 2
 # Currency symbol which is show to the client users when displaying prices and transaction values
 # If not defined here, default language specific currency symbol from strings would be used
-currency_symbol = "€"
+currency_symbol = "$"
 
 
 # Cash payment settings
